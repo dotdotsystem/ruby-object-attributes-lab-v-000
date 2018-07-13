@@ -1,8 +1,15 @@
-class Person
-  def job=(persons_job)
-    @this_persons_job = persons_job
+cclass Person
+ 
+  def initialize(job)
+    @job = job
   end
-def job
-  @this_persons_job
-end
+ 
+  def name
+    @job
+  end
+ 
+  def name=(new_job)
+    @job = new_job
+  end
+ 
 end
